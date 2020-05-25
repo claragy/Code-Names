@@ -1,7 +1,7 @@
 from card import Card
 from matrix import Matrix
 
-
+#initialiser une liste d'au moins 100 mots
 #initaliser la matrice (c'est la classe matrice qui se charge de distribuer les cartes etc)
 #faire l'affichage graphique
 #afficher quelle équipe commence
