@@ -19,7 +19,7 @@ class Matrix :
         remainingCards[self.firstTeam] += 1
         for row in cards:
             for card in row:
-                col = self.chooseRandomColor(black, white, blue, red)
+                col = self.chooseRandomColor(remainingCards['black'],remainingCards['white'],remainingCards['blue'],remainingCards['red'])
                 card.setColor(col)
                 if remainingCards[col] > 0 :
                     remainingCards[col] -=1
